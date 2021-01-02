@@ -1,0 +1,37 @@
+.center {
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.muted {
+    color: #9d9c9c;
+}
+
+.tag {
+    background-color: rgba(24, 144, 255, 0.2);
+    padding: 4px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+.img-bg {
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.7;
+
+    &:hover {
+        transform: scale(1.03);
+        opacity: 1;
+    }
+}
